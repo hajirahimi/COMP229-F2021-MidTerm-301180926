@@ -45,17 +45,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/hajirahimi/COMP229-F2021-MidTerm-301180926.git"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Ahmad Hajirahimi",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/hajirahimi/COMP229-F2021-MidTerm-301180926/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/hajirahimi/COMP229-F2021-MidTerm-301180926#readme"
 }

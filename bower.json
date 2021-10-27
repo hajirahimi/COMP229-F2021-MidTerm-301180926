@@ -1,9 +1,10 @@
 {
-  "name": "comp308-w2017-midterm",
+  "name": "comp229-f2021-midterm-301180926",
   "description": "## Welcome to the MidTerm Project - the Favourite Book List App",
   "main": "server.js",
   "authors": [
-    "Tom Tsiliopoulos"
+    "Tom Tsiliopoulos",
+    "Ahmad Hajirahimi"
   ],
   "license": "ISC",
   "keywords": [
@@ -11,7 +12,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "homepage": "",
+  "homepage": "https://ahmad-comp229-f2021-midterm.herokuapp.com/",
   "ignore": [
     "**/.*",
     "node_modules",

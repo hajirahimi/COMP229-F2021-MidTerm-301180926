@@ -11,5 +11,4 @@ let Book = mongoose.Schema({
 {
   collection: "books"
 });
-
 module.exports = mongoose.model('Book', Book);

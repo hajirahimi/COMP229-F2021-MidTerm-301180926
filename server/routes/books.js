@@ -2,7 +2,6 @@
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
-const { response } = require('../config/app');
 
 // define the book model
 let book = require('../models/books');
@@ -64,7 +63,7 @@ router.get('/:id', (req, res, next) => {
       res.end(err);
     }
     else {
-      //show the edit view
+//show the edit view
       res.render('books/details', {
         title: 'Edit Book', book: bookToEdit,
         displayName: req.user ? req.user.displayName : ''
@@ -90,7 +89,7 @@ router.post('/:id', (req, res, next) => {
       res.end(err);
     }
     else {
-      // refresh the book list
+// refresh the book list
       res.redirect('/books');
     }
   });
@@ -108,7 +107,7 @@ router.get('/delete/:id', (req, res, next) => {
         }
         else
         {
-             // refresh the book list
+// refresh the book list
              res.redirect('/books');
         }
     });
