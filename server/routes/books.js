@@ -57,7 +57,6 @@ router.get('/:id', (req, res, next) => {
                                                     /*CODE ADDED HERE*/
   let id = req.params.id;
   book.findById(id, (err, bookToEdit) => {
-    console.log("Hello World");
     if (err) {
       console.log(err);
       res.end(err);
