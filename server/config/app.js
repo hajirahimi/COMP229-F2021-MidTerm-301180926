@@ -57,5 +57,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
+//Start your server on a specified port
+const port = 3002;
+app.listen(port, ()=>{
+  console.log(`Server is runing on port ${port}`)
+});
 module.exports = app;
