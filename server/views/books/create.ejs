@@ -1,0 +1,28 @@
+<% include ../partials/header.ejs %>
+<!-- CREATE CONTENT -->
+
+<div class="container">
+<form action="/books/add" method="post">
+  <div class="form-group">
+    <label for="Title">Title</label>
+    <input type="text" class="form-control" placeholder="Enter the title" name="Title">
+  </div>
+  <div class="form-group">
+    <label for="Description">Description</label>
+    <input type="text" class="form-control" placeholder="Enter the description" name="Description">
+  </div>
+  <div class="form-group">
+    <label for="Price">Price</label>
+    <input type="text" class="form-control" placeholder="Enter the price" name="Price">
+  </div>
+  <div class="form-group">
+    <label for="Author">Author</label>
+    <input type="text" class="form-control" placeholder="Enter the author" name="Author">
+  </div>
+  <div class="form-group">
+    <label for="Genre">Genre</label>
+    <input type="text" class="form-control" placeholder="Enter the genre" name="Genre">
+  </div>    
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>

@@ -106,9 +106,9 @@ $.fn.pageMe = function(opts){
 // IIFE
 (function(){
   $(".btn-danger").click(function(event){
-    if(!confirm("Are you sure?")) {
+    if(!confirm("Are you sure you want ro remove the Book record forever?")) {
       event.preventDefault();
-      window.location.assign("/games");
+      window.location.assign("/books");
     }
   });
 
